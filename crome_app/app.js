@@ -1,23 +1,23 @@
-//arrays
+/* array로 표현했을 때 */
+// const playerName = "nico";
+// const playerPoints = 121212;
+// const playerHandsome = false;
+// const playerFat = "little bit";
 
-const mon = "mon";
-const tue = "tue";
-const wed = "wed";
-const thu = "thu";
-const fri = "fri";
-const sat = "sat";
+//player[0] = name;
+//player[1] = points;
 
-const dayOfWeek = [mon,tue,wed,thu,fri,sat,sun];
+//const player = ["nico",121212,false,"little bit"];
 
-//[]로 감싼 array에서는 뭐든 넣을 수 있으며, 각 요소들 사이에는 반드시 ,로 구분지어주어야 한다.
-const nonSense = [1,2,"hello",false,null,true,undefined,"haeun"];
 
-//array명 뒤에 []를 추가한 후 가져오고자 하는 값의 순서를 적어주면 그 값을 불러올 수 있다.
-console.log(dayOfWeek[4]);
+//object
+const player = {
+    name : "nico",
+    points : 10,
+    handsome : false,
+    fat : "little bit",
+}
 
-//dayOfWeek배열에 일요일을 추가하고 싶다면(맨 끝에 새로운 데이터 추가방법)
-console.log(dayOfWeek);
-
-dayOfWeek.push("sun");
-
-console.log(dayOfWeek);
+console.log(player);
+console.log(player.name);
+player.name; // <- object!
