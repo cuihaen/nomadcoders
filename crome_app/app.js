@@ -1,10 +1,10 @@
 //function
 
-function sayHello(){
-    console.log("hello!");
+function sayHello(name){
+    console.log("hello my name is "+name+".");
 }
 
-sayHello();
-sayHello();
-sayHello();
-sayHello();
+sayHello("haeun");
+sayHello("nico");
+sayHello("aubrey");
+sayHello("ella");
