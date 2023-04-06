@@ -14,10 +14,16 @@
 const player = {
     name : "nico",
     points : 10,
-    handsome : false,
+    handSome : false,
     fat : "little bit",
 }
 
 console.log(player);
 console.log(player.name);
+console.log(player["name"]); //<-바로 위의 것과 같은 결과값이 찍히게 된다.
 player.name; // <- object!
+
+player.handSome = true;
+player.lastName = "potato"; //새로운 object추가하기
+
+console.log(player);
