@@ -27,3 +27,7 @@ player.handSome = true;
 player.lastName = "potato"; //새로운 object추가하기
 
 console.log(player);
+
+player.points = player.points + 5; //기존 player points에 5를 더하기!
+
+console.log(player);
