@@ -6,7 +6,6 @@ const wed = "wed";
 const thu = "thu";
 const fri = "fri";
 const sat = "sat";
-const sun = "sun";
 
 const dayOfWeek = [mon,tue,wed,thu,fri,sat,sun];
 
@@ -14,4 +13,11 @@ const dayOfWeek = [mon,tue,wed,thu,fri,sat,sun];
 const nonSense = [1,2,"hello",false,null,true,undefined,"haeun"];
 
 //array명 뒤에 []를 추가한 후 가져오고자 하는 값의 순서를 적어주면 그 값을 불러올 수 있다.
-console.log(dayOfWeek[5]);
+console.log(dayOfWeek[4]);
+
+//dayOfWeek배열에 일요일을 추가하고 싶다면(맨 끝에 새로운 데이터 추가방법)
+console.log(dayOfWeek);
+
+dayOfWeek.push("sun");
+
+console.log(dayOfWeek);
