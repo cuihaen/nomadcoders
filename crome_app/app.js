@@ -8,3 +8,4 @@ sayHello("haeun");
 sayHello("nico");
 sayHello("aubrey");
 sayHello("ella");
+console.log("lalalala")
