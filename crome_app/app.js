@@ -1,11 +1,10 @@
-//function
-
-function sayHello(name){
-    console.log("hello my name is "+name+".");
+function plus(a,b){
+    console.log(a+b);
 }
 
-sayHello("haeun");
-sayHello("nico");
-sayHello("aubrey");
-sayHello("ella");
-console.log("lalalala")
+plus(5,10);
+plus(3,2);
+plus(4,6);
+plus(1,2);
+plus(3,5);
+plus(6,9);
