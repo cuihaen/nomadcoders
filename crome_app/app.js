@@ -1,7 +1,9 @@
-const age = 96;
-function calculateKrAge(ageOfForeigner){
-    return ageOfForeigner+2;
-}
+const calculator = {
+    plus : function (a,b){
+        return a + b;
+    },
+};
 
-const krAge = calculateKrAge(age);
-console.log(krAge);
+const plusResult = calculator.plus(2,3);
+
+console.log(plusResult);
