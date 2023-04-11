@@ -9,5 +9,5 @@ if(isNaN(age)){
     console.log("please write a number")
 }else{
     //condition === false
-    console.log(age)
+    console.log("Thank you for writing your age")
 }
