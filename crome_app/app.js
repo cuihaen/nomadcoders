@@ -1,10 +1,7 @@
-function plus(a,b){
-    console.log(a+b);
+const age = 96;
+function calculateKrAge(ageOfForeigner){
+    return ageOfForeigner+2;
 }
 
-plus(5,10);
-plus(3,2);
-plus(4,6);
-plus(1,2);
-plus(3,5);
-plus(6,9);
+const krAge = calculateKrAge(age);
+console.log(krAge);
