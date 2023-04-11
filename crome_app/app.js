@@ -1,9 +1,3 @@
-const calculator = {
-    plus : function (a,b){
-        return a + b;
-    },
-};
+const age = prompt("How old are you?");
 
-const plusResult = calculator.plus(2,3);
-
-console.log(plusResult);
+console.log(age);
