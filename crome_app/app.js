@@ -9,8 +9,11 @@ if(isNaN(age)){
     console.log("please write a number")
 }else if(age<18){
     console.log("You are too young.")
-}
-else{
+}else if(age >= 18 && age <= 50){
+    //&&를 활용해 앞 뒤 두가지 조건 모두 충족해야 true!
+    //||를 활용하면 앞 뒤 둘 중 하나라도 충족시 true
+    console.log("You can drink.")
+}else{
     //condition === false
     console.log("Welcome.")
 }
