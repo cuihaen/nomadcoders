@@ -7,7 +7,10 @@ console.log(isNaN(age));
 if(isNaN(age)){
     //condition === true
     console.log("please write a number")
-}else{
+}else if(age<18){
+    console.log("You are too young.")
+}
+else{
     //condition === false
-    console.log("Thank you for writing your age")
+    console.log("Welcome.")
 }
