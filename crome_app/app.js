@@ -1,6 +1,6 @@
 const title = document.querySelector('.hello h1');
 
-console.log(title);
+console.dir(title); 
+//각 요소 내부에 있는 것들을 확인하려면 dir를 활용해주면 된다.
 
-const titles = document.querySelectorAll('.hello h1');
-console.log(titles);
+title.style.color = "red";
