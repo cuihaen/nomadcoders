@@ -1,7 +1,11 @@
 const h1 = document.querySelector('.hello h1');
 
 function handleTitleClick(){
-    h1.className = 'active';
+   if( h1.className = 'clicked'){
+    h1.className = '';
+   }else{
+    h1.className = "clicked";
+   }
 }
 
 h1.addEventListener('click', handleTitleClick);
