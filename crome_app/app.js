@@ -1,11 +1,7 @@
-const h1 = document.querySelector('.hello h1');
+const loginInput = document.querySelector('#login-form input');
+const loginButton = document.querySelector('#login-form button');
 
-function handleTitleClick(){
-    h1.classList.toggle("clicked");
+function onLoginBtnClick(){
+    console.log('click!');
 }
-
-h1.addEventListener('click', handleTitleClick);
-
-// step01. find the element.
-// step02. listen for an event.
-// step03. react to that event.(reaction means show something or hide something or change the color of something)
+loginButton.addEventListener('click',onLoginBtnClick);
