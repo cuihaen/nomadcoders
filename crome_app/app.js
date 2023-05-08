@@ -1,11 +1,11 @@
 const loginForm = document.querySelector('#login-form');
 const loginInput = document.querySelector('#login-form input');
 
-function onLoginSubmit(){
-    const username = loginInput.value;
-    console.log(username);
+function onLoginSubmit(e){
+    e.preventDefault();
+    console.log(loginInput.value);
 }
 
 loginForm.addEventListener("submit",onLoginSubmit);
 
-// onLoginSubmit(); 그냥 이렇게 바로 적어두면 브라우저가 실행되면서 바로 해당 이벤트를 실행함.
+//event.preventDefault를 넣어주면 해당 브라우저가 기본동작으로 새로고침을 실행하는 것을 막아줄 수 있다.
