@@ -8,6 +8,7 @@ function onLoginSubmit(e){
     loginForm.classList.add(HIDDEN_CLASSNAME);
     const username = loginInput.value;
     greeting.innerText = 'Hello '+username;
+    // greeting.innerText = `Hello ${username}`; 위와 동일함!
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
