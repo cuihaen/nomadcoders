@@ -26,5 +26,4 @@ if(savedUsername === null){
 }else{
     // show the greetings
     paintGreetings(savedUsername);
-   
 }
