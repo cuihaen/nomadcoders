@@ -1,30 +1,39 @@
 const quotes = [
     {
-        quote : "",
-        author : "",
+        quote : "hahaha1",
+        author : "haeun1",
     },
     {
-        quote : "",
-        author : "",
+        quote : "hahaha2",
+        author : "haeun2",
     },
     {
-        quote : "",
-        author : "",
+        quote : "hahaha3",
+        author : "haeun3",
     },
     {
-        quote : "",
-        author : "",
+        quote : "hahaha4",
+        author : "haeun4",
     },
     {
-        quote : "",
-        author : "",
+        quote : "hahaha5",
+        author : "haeun5",
     },
     {
-        quote : "",
-        author : "",
+        quote : "hahaha6",
+        author : "haeun6",
     },
     {
-        quote : "",
-        author : "",
+        quote : "hahaha7",
+        author : "haeun7",
     },
 ]
+
+const quote = document.querySelector('#quote span:first-child');
+const author = document.querySelector('#quote span:last-child');
+
+console.log(quotes[Math.floor(Math.random()*quotes.length)]);
+
+//Math.round() = 반올림
+//Math.ceil() = 올림
+//Math.floor() = 내림
