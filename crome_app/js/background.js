@@ -12,3 +12,4 @@ const bgImage = document.createElement('img');
 bgImage.src = `./img/${chosenImage}`;
 
 document.body.appendChild(bgImage);
+//prepend로 하면 맨 위에 img태그를 위치시킬 수 있음.
