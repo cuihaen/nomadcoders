@@ -14,7 +14,10 @@ function saveToDos(){
 function deleteTodo(e){
     const li = e.target.parentElement;
     li.remove();
-
+    toDos = toDos.filter((toDo) => toDo.id !== parseInt(li.id));
+    //parseInt를 활용해 toDo.id(= string) 이랑 li.id(=number)의 형식을 통일해준다.
+    saveToDos();
+   
 }
 
 function paintToDo(newTodo){
