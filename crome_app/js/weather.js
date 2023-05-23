@@ -1,7 +1,7 @@
 // 브라우저에서 위치좌표를 알아서 잡아주게 됨.
 //getCurrentPosition(성공했을때,실패했을때) 두가지 요소가 필요함
 
-const API_KEY = "api_key"
+const API_KEY = "589a809e2d1edb4de7f20e997824e8d5"
 function onGeoOk(position){
     const lat = position.coords.latitude;
     const lon = position.coords.longitude;
